@@ -3,6 +3,7 @@
     gap: 1rem;
     padding: 1rem;
     max-height: 10%;
+    color: white;
 }
 .brandName{
     color: var(--primary-color-2);
