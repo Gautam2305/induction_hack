@@ -3,6 +3,7 @@
     gap: 1rem;
     flex-flow: column wrap;
     margin: 1rem;
+    color: white;
 }
 .btnPrimary{
     width: 6rem;
