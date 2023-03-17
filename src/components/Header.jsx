@@ -11,7 +11,7 @@ const Header = () => {
         setMonthIndex(monthIndex+1)
     }
     const resetHandler = () => {
-        setMonthIndex(monthIndex === dayjs().month()?monthIndex + Math.random(): dayjs().month())
+        setMonthIndex(monthIndex === dayjs().month()? monthIndex + Math.random(): dayjs().month());
     }
     return(
         <header className={`${styles.mainHeader}`}>
