@@ -28,6 +28,7 @@
 .event-box{
     display: flex;
     cursor: pointer;
+    height: auto;
 }
 .events{
     padding: 0.5rem;

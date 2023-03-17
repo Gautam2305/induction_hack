@@ -9,7 +9,10 @@ const Day = ({day,rowIndex}) => {
     const { state,setSelectedEvent } = useEvent();
 
     const [dayEvents, setDayEvents] = useState([]);
-    
+    useEffect(()=>{
+        const events = state.filter(event => dayjs(event.day).format('DD-MM-YY') === day.format('DD-MM-YY'));
+        setDayEvents(events);
+    },[state,day]);
     const getCurrentDay = () => {
         return day.format('DD-MM-YY') === dayjs().format('DD-MM-YY') ? 'curr-day':'';
     }
