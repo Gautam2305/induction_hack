@@ -67,6 +67,7 @@ p, h1, h2, h3, h4, h5, h6 {
 @import url('./components/SmolCalendar.module.css');
 @import url('./components/Month.module.css');
 @import url('./components/Modal.module.css');
+@import url('./components/Day.module.css');
 
 @import url('./pages/HomePage.module.css');
 @import url('./pages/LoginPage.module.css');

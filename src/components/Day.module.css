@@ -11,8 +11,7 @@
 .curr-day{
     background-color: var(--secondary-color-2);
     color: white;
-    border: 50%;
-    width: 70%;
+    border-radius: 2rem;
 }
 .cal-days{
     font-size: 1rem;
