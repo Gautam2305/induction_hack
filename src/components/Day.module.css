@@ -1,6 +1,6 @@
 .day-box{
-    border: 2px gray solid;
     display: flex;
+    border: 1px gray solid;
     flex-flow: column wrap;
 }
 .task-box{
@@ -16,7 +16,8 @@
 .cal-days{
     font-size: 1rem;
     font-family: var(--main-text);
-    margin-top: 1rem;
+    margin: 0.5rem;
+    border-bottom: 2px gray solid;
 }
 .cal-date{
     font-size: 1rem;
