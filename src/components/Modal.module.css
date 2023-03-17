@@ -1,0 +1,48 @@
+.modal{
+    display:flex;
+    flex-flow: column wrap;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: rgb(0, 0, 0);
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0px 0px 20px 10px white;
+}
+.deleteBox{
+    padding: 1rem;
+    float: right;
+}
+.deleteBtn{
+    background: transparent;
+    border: none;
+}
+.inputBox{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+.footer{
+    position:relative;
+}
+.savebtn{
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(-45deg, var(--primary-color),var(--primary-color-2),var(--secondary-color),var(--secondary-color-2));
+    font-family: var(--main-text);
+    border: 2px solid rgb(225, 225, 225);
+    box-shadow: 0px 0px 6px 2px rgb(213, 213, 213);
+    color: white;
+    font-family: var(--main-text);
+    font-weight: 800; 
+}
+.savebtn:hover{
+    cursor: pointer;
+}

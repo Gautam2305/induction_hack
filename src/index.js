@@ -3,11 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { MonthProvider } from './contexts/MonthContext';
+import { ModalProvider } from './contexts/ModalContext';
+import { EventProvider } from './contexts/EventContext';
+import { CalendarProvider } from './contexts/CalendarContext';
+import { DayProvider } from './contexts/DayContext'
+import { AuthProvider } from './contexts/AuthContext';
+import { BrowserRouter as Router } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <EventProvider>
+    <DayProvider>
+    <CalendarProvider>
+    <ModalProvider>
+    <MonthProvider>
+    <AuthProvider>
+      <App />
+    </AuthProvider>
+    </MonthProvider>
+    </ModalProvider>
+    </CalendarProvider>
+    </DayProvider>
+    </EventProvider>
+    </Router>
   </React.StrictMode>
 );
 

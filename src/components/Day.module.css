@@ -1,0 +1,27 @@
+.day-box{
+    border: 2px gray solid;
+    display: flex;
+    flex-flow: column wrap;
+}
+.task-box{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.curr-day{
+    background-color: var(--secondary-color-2);
+    color: white;
+    border: 50%;
+    width: 70%;
+}
+.cal-days{
+    font-size: 1rem;
+    font-family: var(--main-text);
+    margin-top: 1rem;
+}
+.cal-date{
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0 1rem;
+}

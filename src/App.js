@@ -1,9 +1,18 @@
+import React from 'react';
 import './App.css';
-import { getMonth } from './utils';
+import { HomePage } from './pages/HomePage';
+import { LoginPage } from './pages/LoginPage';
+import { SignupPage } from './pages/SignupPage';
+import { RouterPath } from './router';
+
 function App() {
-  console.table(getMonth());
+  
   return (
-    <></>
+    <RouterPath>
+      <HomePage/>
+      <LoginPage/>
+      <SignupPage/>
+    </RouterPath>
   );
 }
 

@@ -1,0 +1,7 @@
+.mainCalendar{
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    grid-template-columns: repeat(7,1fr);
+    font-family: var(--main-text);
+}

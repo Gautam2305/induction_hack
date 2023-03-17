@@ -1,0 +1,36 @@
+.smolCalendar{
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.sidebarHeader{
+    height: 5rem;
+}
+.calendarBox{
+    display: grid;
+    grid-template-columns: repeat(7,1.75rem);
+    font-family: var(--main-text);
+}
+.datebtn{
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+}
+.datebtn:hover{
+    background-color: var(--primary-color-2);
+}
+.btnSmall{
+    margin: 0.25rem;
+    background: transparent;
+    border: none;
+}
+.btnSmall:hover{
+    color: var(--secondary-color-2);
+    cursor: pointer;
+}
+.getday-class{
+    /* bg-blue-500 rounded-blue text-white */
+    background-color: var(--secondary-color-2);
+    border-radius: 0.5rem;
+    color: white;
+}
