@@ -14,19 +14,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-    <EventProvider>
-    <DayProvider>
     <CalendarProvider>
-    <ModalProvider>
     <MonthProvider>
+    <DayProvider>
+    <EventProvider>
+    <ModalProvider>
     <AuthProvider>
       <App />
     </AuthProvider>
-    </MonthProvider>
     </ModalProvider>
-    </CalendarProvider>
-    </DayProvider>
     </EventProvider>
+    </DayProvider>
+    </MonthProvider>
+    </CalendarProvider>
     </Router>
   </React.StrictMode>
 );
