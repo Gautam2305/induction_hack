@@ -15,6 +15,7 @@
     background: transparent;
     border-radius: 50%;
     border: none;
+    color: white;
 }
 .datebtn:hover{
     background-color: var(--primary-color-2);
