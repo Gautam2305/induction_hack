@@ -10,7 +10,7 @@ const MonthProvider = ({children}) => {
         if( calendarMonth !== null){
             setMonthIndex(calendarMonth);
         }
-    })
+    },[calendarMonth,setMonthIndex])
     return(
         <MonthContext.Provider value={{monthIndex,setMonthIndex}}>
             {children}

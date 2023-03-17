@@ -39,7 +39,7 @@ const Modal = () => {
         if(!showModal){
             setSelectedEvent(null);
         }
-    },[showModal])
+    },[showModal,setSelectedEvent])
 
     return(
         <div className={`${styles.modal}`}>
