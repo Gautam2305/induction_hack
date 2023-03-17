@@ -48,7 +48,7 @@ const Modal = () => {
                     <div className={`${styles.deleteBox}`}>
                     <button className={`${styles.deleteBtn}`} onClick={() => setShowModal(false)}><i className="fa-solid fa-x"></i></button>
                     { selectedEvent && (
-                        <button onClick={()=> dispatch({type:"delete", payload: selectedEvent})}><i className="fa-solid fa-trash"></i></button>
+                        <button className={`${styles.binBtn}`} onClick={()=> dispatch({type:"delete", payload: selectedEvent})}><i className="fa-solid fa-trash"></i></button>
                     )}
                     </div>
                 </header>

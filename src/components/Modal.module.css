@@ -13,9 +13,10 @@
     padding: 1rem;
     float: right;
 }
-.deleteBtn{
+.deleteBtn, .binBtn{
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 .inputBox{
     display: flex;
