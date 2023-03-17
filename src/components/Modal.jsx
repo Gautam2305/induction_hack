@@ -55,10 +55,10 @@ const Modal = () => {
                 <div className={`${styles.inputBox}`}>
                     <div>
                     <input type="text" name="title" placeholder="Add title" value={title} onChange={e => setTitle(e.target.value)} required 
-                    style={{width:"50%",height:"25px",background:"#0e0e0e",border:"none",borderRadius:"0.5rem"}} />
+                    style={{width:"50%",height:"25px",background:"#0e0e0e",color:"white",border:"none",borderRadius:"0.5rem"}} />
                     </div>
                     <div>
-                    <input style={{width:"50%",height:"5rem",background:"#0e0e0e",border:"none",borderRadius:"0.5rem"}} type="text" name="description" placeholder="Add description" value={description} onChange={e => setDescription(e.target.value)} required  />
+                    <input style={{width:"50%",height:"5rem",background:"#0e0e0e",color:"white",border:"none",borderRadius:"0.5rem"}} type="text" name="description" placeholder="Add description" value={description} onChange={e => setDescription(e.target.value)} required  />
                     <span><i className="fa-solid fa-bars-sort"></i></span>
                     </div>
                     <div>
