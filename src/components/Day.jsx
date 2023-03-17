@@ -21,6 +21,7 @@ const Day = ({day,rowIndex}) => {
         <p className={`cal-date ${getCurrentDay()}`}>{day.format('DD')}</p>
         </header>
         <div
+        className="event-box"
         onClick={()=>{
             setDaySelect(day);
             setShowModal(true);
@@ -28,7 +29,8 @@ const Day = ({day,rowIndex}) => {
             {dayEvents.map((event,id)=>(
                 <div 
                 onClick={()=> setSelectedEvent(event)}
-                style={{background:`event.label`}} key={id}>
+                style={{background:`event.label`}} 
+                className="events" key={id}>
                     {event.title}
                 </div>
             ))}

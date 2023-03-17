@@ -25,3 +25,16 @@
     text-align: center;
     margin: 0 1rem;
 }
+.event-box{
+    display: flex;
+    cursor: pointer;
+}
+.events{
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
