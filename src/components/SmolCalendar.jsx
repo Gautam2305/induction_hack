@@ -35,7 +35,7 @@ const SmolCalendar = () =>{
         if(today === currDay){
             return "getday-class"
         }else if(currDay===selectDay){
-            return "bg-blue";
+            return "slcday-class";
         }else{
             return "";
         }

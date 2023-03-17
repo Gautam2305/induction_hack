@@ -6,8 +6,8 @@ const Month = ({month}) => {
         <div className={`${styles.mainCalendar}`}>
             {month.map((row,index)=>(
                 <React.Fragment key={index}>
-                    {row.map((day,idx) => (
-                        <Day day={day} key={idx} rowIndex={index} />
+                    {row.map((day,id) => (
+                        <Day day={day} key={id} rowIndex={index} />
                     ))}
                 </React.Fragment>
             ))}

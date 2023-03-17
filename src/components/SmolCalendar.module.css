@@ -29,8 +29,13 @@
     cursor: pointer;
 }
 .getday-class{
-    /* bg-blue-500 rounded-blue text-white */
     background-color: var(--secondary-color-2);
-    border-radius: 0.5rem;
+    border-radius: 50%;
     color: white;
+}
+.slcday-class{
+    background-color: var(--secondary-color-2);
+    border-radius: 50%;
+    color: var(--primary-color-2);
+    font-weight: 1000;
 }
